@@ -3,6 +3,11 @@
 このリポジトリは、**VS Code に組み込まれている Git 機能**を使って、Git と GitHub の基本操作をひと通り体験するための課題です。
 プログラミングの知識は必要ありません。扱うのは文章（Markdown）ファイルだけです。
 
+> [!IMPORTANT]
+> **「Use this template」で自分のリポジトリを作るときは、必ず「Include all branches」にチェックを入れてください。**
+> チェックを忘れると、Mission 7 で使う `practice/conflict` ブランチがコピーされません。
+> （忘れた場合は、`MISSIONS.md` の最後にある「付録」の手順で自分で用意できます）
+
 ## この課題で体験すること
 
 | 機能 | ミッション |
@@ -45,7 +50,8 @@ git config --global user.email "GitHubに登録したメールアドレス"
 1. ブラウザでこのリポジトリのページを開きます。
 2. 右上の緑色のボタン **「Use this template」→「Create a new repository」** をクリックします。
 3. 次のように設定します。
-   - **Include all branches（すべてのブランチを含める）に必ずチェックを入れる** ← Mission 7 で使うブランチが含まれます
+   - ⚠️ **Include all branches（すべてのブランチを含める）に必ずチェックを入れる**
+     - 初期状態ではチェックが**外れています**。ここを忘れると Mission 7 で使う `practice/conflict` ブランチがコピーされません。
    - Repository name: 好きな名前（例: `my-git-practice`）
    - 公開範囲: **Private** を選ぶ
 4. **「Create repository」** をクリックします。
