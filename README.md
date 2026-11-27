@@ -3,11 +3,6 @@
 **VS Code に組み込まれている Git 機能**を使って、Git と GitHub の基本操作をひと通り体験する課題です。
 プログラミングの知識は不要です。扱うのは文章（Markdown）ファイルだけです。
 
-> [!IMPORTANT]
-> **「Use this template」で自分のリポジトリを作るときは、必ず「Include all branches」にチェックを入れてください。**
-> 忘れると、Mission 7 で使う `practice/conflict` ブランチがコピーされません。
-> （忘れた場合は、`MISSIONS.md` の最後にある「付録」の手順で自分で用意できます）
-
 ## 目次
 
 - [全体の流れ](#全体の流れ)
@@ -109,7 +104,7 @@ git config --global user.email "GitHubに登録したメールアドレス"
 
    | 項目 | 設定 |
    | --- | --- |
-   | ⚠️ **Include all branches** | **必ずチェックを入れる**（初期状態では**外れています**。忘れると Mission 7 で使う `practice/conflict` ブランチがコピーされません） |
+   | Include all branches | 初期状態（**Off**）のままで OK |
    | Repository name | 好きな名前（例: `my-git-practice`） |
    | 公開範囲 | **Private** |
 
@@ -158,9 +153,10 @@ STEP 1 で作ったリポジトリは **Private（非公開）** なので、VS 
 
 > **場所：** VS Code　／　**ゴール：** `MISSIONS.md` 最後のチェックリストがすべて埋まっている
 
-1. VS Code のエクスプローラーで **[`MISSIONS.md`](MISSIONS.md)** を開きます。
-2. <kbd>Ctrl</kbd> + <kbd>K</kbd> を押してから <kbd>V</kbd>（Mac は <kbd>Cmd</kbd> + <kbd>K</kbd> → <kbd>V</kbd>）を押すと、手順書の**プレビューが右側に**表示されます。
-   - 左で作業しながら、右で手順を読めるので便利です。
+1. VS Code のエクスプローラーで **[`MISSIONS.md`](MISSIONS.md)** をクリックします。
+   - 見出しや表が整った**読みやすい表示（プレビュー）**で開きます。
+   - `#` や `|` などの記号だらけの表示で開いた場合は、<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>（Mac は <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>）を押すと読みやすい表示になります。
+2. 作業しながら手順を読みたいときは、`MISSIONS.md` の**タブを画面の右半分へドラッグ**すると、左右に並べて表示できます。
 3. Mission 1 から順番に進めてください。
 
 ### 進め方のコツ
